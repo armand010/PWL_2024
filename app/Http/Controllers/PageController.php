@@ -11,6 +11,7 @@ class PageController extends Controller
     }
 
     public function about(){
-        return 'NIM : 2241720090';
+        return 'Nama : Armand Maulana Andika Putra, NIM : 2241720090';
+        
     }
 }
