@@ -49,26 +49,6 @@ Route::get('/user/{name?}', function($name='John'){
     return 'Nama saya '.$name;
 });
 
-Route::get('/user/profile', function(){
-    //
-}) -> name('profile');
-
-Route::get(
-    '/user/profile',
-    [UserProfileController::class, 'show']
-) -> name('profile');
-
-//Generating Urls..
-$url = route('profile');
-
-//Generating Redirects...
-return redirect() -> route('profile');
-
-// Route::get('/posts/{post}/comments/{comment}', function
-// ($postId, $commentId) {
-//  return 'Pos ke-'.$postId." Komentar ke-: ".$commentId;
-// });
-
 
 
 
