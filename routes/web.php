@@ -14,7 +14,7 @@ use App\Http\Controllers\WelcomeController;
 |
 */
 
-Route::get('/w', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 
