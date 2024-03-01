@@ -9,4 +9,8 @@ class PageController extends Controller
     public function index(){
         return 'Selamat Datang';
     }
+
+    public function about(){
+        return 'NIM : 2241720090';
+    }
 }

@@ -27,9 +27,7 @@ Route::get('/world', function () {
 //     return 'Selamat Datang';
 // });
 
-Route::get('/about', function(){
-    return 'NIM : 2241720090';
-});
+Route::get('/about', [PageController::class, 'about']);
 
 // Route::get('/user/{name}', function($name){
 //     return 'Nama Saya '.$name;
