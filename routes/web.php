@@ -37,9 +37,7 @@ Route::get('/posts/{post}/comment/{comment}', function ($postId, $commentId){
     return 'Post ke-'.$postId." Komentar ke-".$commentId;
 });
 
-Route::get('/articles/{id}', function($id){
-    return 'Halaman Artikel dengan ID '.$id;
-});
+Route::get('/articles/{id}', [PageController::class, 'articles']);
 
 Route::get('/user/{name?}', function($name='John'){
     return 'Nama saya '.$name;

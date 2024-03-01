@@ -11,7 +11,10 @@ class PageController extends Controller
     }
 
     public function about(){
-        return 'Nama : Armand Maulana Andika Putra, NIM : 2241720090';
-        
+        return 'Nama : Armand Maulana Andika Putra, NIM : 2241720090';   
+    }
+
+    public function articles($id){
+        return 'Halaman Artikel dengan ID '.$id;
     }
 }
