@@ -1143,9 +1143,10 @@
                                             <div class="col-sm-6">
                                                 <!-- text input -->
                                                 <div class="form-group">
-                                                    <label>Text</label>
-                                                    <input type="text" class="form-control"
-                                                        placeholder="Enter ...">
+                                                    <label>Level id</label><input type="text" class="form-control" placeholder="id">
+                                                </div>
+                                                <div>
+                                                    <button type = "submit" class ="btn btn-info">Submit </button>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
